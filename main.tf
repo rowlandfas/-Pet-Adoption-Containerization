@@ -1,4 +1,4 @@
-locals {
+   locals {
   name = "rowland"
 }
 
@@ -865,6 +865,7 @@ resource "aws_route53_record" "docker-record" {
     evaluate_target_health = true
   }
 }
+
 
 
 
